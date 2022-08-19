@@ -23,7 +23,7 @@ h1 {
 }
 
 body {
-    background-image: url("Images/backgrounds/MEmakingit.png");
+    background-image: url("Images/slides/Me-Coding-the-website.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -59,6 +59,20 @@ a { color:inherit;
 .linktext a {
     font-weight: bold;  
 }
+
+#itch a:hover
+{
+    color: #fa5c5c;
+}
+#github a:hover
+{
+    color: #0062ff;
+}
+#Music a:hover
+{
+    color: #00d023;
+}
+
 
 .linktext a:hover {
   border-radius: 5px;

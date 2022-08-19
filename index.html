@@ -74,28 +74,24 @@
       <a class="active" href="#home">About Me</a>
             <a href="https://github.com/BushTrain460615?tab=repositories">Other Stuff i have done</a>
             <a href="https://github.com/BushTrain460615/Website-for-my-class">The Source Code</a>
+            <a href="slope/index.html">If i get bored</a>
         </div>
       </div> 
   i might work on this a bit later after i finish this project just for fun
 <head>
 	<p id="demo"></p>	<div id="wrapper">
-		<h1>This Is Where i Will write about my life</h1>
-		
-
-		<div id="coolervidwrapper">
-			<div class='videoWrapper'>
-				<iframe width="560" height="349" src="https://www.youtube.com/embed/HMNKUo3CCpU" frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe>
-			</div>
+  <h1>I was Born in tennessee i spend my free time coding or making music i added a link for that.</h1>
+  <h1>I live with my mom and my siblings. my dad and mom are divorced.</h1>
+  <h1>i have four brothers and one sister.</h1>
+  <h1>i am the coder on two games FNF reanimated and i helped a bit on a pokemon rom hack</h1>
+  <h1>There is nothing really that intresting about me so this is all i have done</h1>
+		<div class="linktext hovertext" id="github">
+      <p class="description">All My Stuff</p>
+			<a href="https://github.com/BushTrain460615">My Github Page Where I Upload All The Games I Port To Mac</a>
 		</div>
 
-		<div class="linktext hovertext" id="GH">
-			<a href="https://github.com/BushTrain460615">My Github Page Where I Uploaded The Code For This Website</a>
-		</div>
-
-		<div class='linktext hovertext' id="itch">
-			<a href="https://ninja-muffin24.itch.io/funkin">My Itch.io page where i make games (don't look at this in class)</a>
+    <div class='linktext hovertext' id="Music">
+			<a href="https://open.spotify.com/artist/2D7bXHYfSzfWzumnbB3BtX?si=1glTX3szS2qi_levaiWkqw">Free promotion for my music on all platforms</a>
 		</div>
 		
 	</div>
@@ -192,62 +188,6 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 </style>
-</head>
-<body>
-
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="Images/slides/slide.png" style="width:100%">
-  <div class="text">Play Methy Games!</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="Images/slides/slide2.png" style="width:100%">
-  <div class="text">The Cool Guys!!!!</div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-</div>
-
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
 
 </head>
 </html>
