@@ -1,5 +1,5 @@
 # School Website
-I made this in like 5 mins
+I made this in 3 days
 ## Credits
 * [BushTrain460615](https://github.com/BushTrain460615)
 * [BlockBoi](https://github.com/Mr-funkinguy)
